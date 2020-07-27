@@ -8,3 +8,8 @@
   include_tasks: "{{ role_path }}/includes/devices.yaml"
   when:
     - devices is defined
+
+- name: include ip pools configuration
+  include_tasks: "{{ role_path }}/includes/pools.yaml"
+  when:
+    - pools is defined

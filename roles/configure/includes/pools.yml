@@ -1,0 +1,5 @@
+---
+- name: configure ip pools
+  ciscodevnet.ansible_dnac.pools:
+    config: "{{ pools }}"
+    state: "{{ state | default(omit) }}"
