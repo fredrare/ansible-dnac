@@ -68,3 +68,4 @@ GPLv3
 ## Contributors
 
 * Peter Sprygada (privateip) <psprygad@redhat.com>
+* Franco Ramirez (privateip) <franco@fredrare.com>
